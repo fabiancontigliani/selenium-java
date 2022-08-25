@@ -22,7 +22,7 @@ public class UMTest {
         driver.findElement(By.xpath("//div[@id=\'content\']/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div[5]/div/h2/a")).click();
         driver.findElement(By.xpath("//h1/span")).click();
         assertThat(driver.getTitle(), is("Calendario Académico fcjs – Universidad de Mendoza"));
-        driver.quit();
+        driver.quit(); // Cierra el navegador
 
     }
 
